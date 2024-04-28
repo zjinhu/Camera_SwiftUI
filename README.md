@@ -11,20 +11,24 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<img src="Image/demo.png" style="zoom:33%;" />
+
+```swift
+            Button {
+                isPresented.toggle()
+            } label: {
+                Text("Camera")
+            }
+            .camera(isPresented: $isPresented,
+                    photoData: $photoData)
+```
+
+
 
 ## Usage
 
 
 ## Install
-
-### Cocoapods
-
-1. Add `pod 'Camera_SwiftUI'` in Podfile
-
-2. Execute `pod install or pod update`
-
-3. Import `import Camera_SwiftUI`
 
 ### Swift Package Manager
 

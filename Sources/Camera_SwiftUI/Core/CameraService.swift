@@ -355,7 +355,7 @@ public extension CameraService {
 extension CameraService: AVCapturePhotoCaptureDelegate {
 
     public func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
-        let uniqueID = photo.resolvedSettings.uniqueID
+        let _ = photo.resolvedSettings.uniqueID
         if let error {
             triggerCaptureEvent(.error(error))
             return

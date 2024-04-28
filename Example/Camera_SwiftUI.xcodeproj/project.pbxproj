@@ -286,6 +286,7 @@
 				CODE_SIGN_ENTITLEMENTS = Camera_SwiftUI/Camera_SwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_Camera_SwiftUI_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Camera_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 6WP8T4EX9F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -309,7 +310,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.hu.Camera_SwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = con.hu.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -327,6 +328,7 @@
 				CODE_SIGN_ENTITLEMENTS = Camera_SwiftUI/Camera_SwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_Camera_SwiftUI_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Camera_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 6WP8T4EX9F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -350,7 +352,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = con.hu.Camera_SwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = con.hu.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

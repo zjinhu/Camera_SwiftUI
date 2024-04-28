@@ -17,9 +17,8 @@ struct ContentView: View {
             } label: {
                 Text("Camera")
             }
-            .fullScreenCover(isPresented: $isPresented) {
-                CameraView(photoData: $photoData)
-            }
+            .camera(isPresented: $isPresented,
+                    photoData: $photoData)
             
             if let photoData,
                let uiImage = UIImage(data: photoData) {
