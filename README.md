@@ -36,7 +36,7 @@ Starting from Xcode 11, the Swift Package Manager is integrated, which is very c
 
 Select `File > Swift Packages > Add Pacakage Dependency` in Xcode's menu bar, and enter in the search bar
 
-`https://github.com/jackiehu/Camera_SwiftUI`, you can complete the integration
+`https://github.com/zjinhu/Camera_SwiftUI`, you can complete the integration
 
 ### Manual Install
 

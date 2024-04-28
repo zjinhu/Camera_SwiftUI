@@ -34,7 +34,7 @@
 
 在 Xcode 的菜单栏中选择 `File > Swift Packages > Add Pacakage Dependency`，然后在搜索栏输入
 
-`https://github.com/jackiehu/Camera_SwiftUI`，即可完成集成
+`https://github.com/zjinhu/Camera_SwiftUI`，即可完成集成
 
 ### 手动集成
 
