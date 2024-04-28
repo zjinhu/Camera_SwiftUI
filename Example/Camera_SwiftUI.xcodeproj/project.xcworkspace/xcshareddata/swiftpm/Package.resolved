@@ -1,0 +1,15 @@
+{
+  "originHash" : "a36f1c8ba9d2f162e1583a0b294519dfdb9683bbc4d2e036dbdf6468540a36d2",
+  "pins" : [
+    {
+      "identity" : "brick",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/zjinhu/brick.git",
+      "state" : {
+        "revision" : "563539dd04f38afddb32883d439575ad0709cb78",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}
