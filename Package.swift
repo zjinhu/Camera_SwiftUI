@@ -12,7 +12,7 @@ let package = Package(
             targets: ["Camera_SwiftUI"]),
     ],
     dependencies: [
-        .package(url: "https://gitee.com/zjinhu/brick.git", .upToNextMajor(from: "0.3.0")),
+        .package(url: "https://github.com/zjinhu/Brick_SwiftUI.git", .upToNextMajor(from: "0.3.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "Camera_SwiftUI",
             dependencies: [
-                .product(name: "BrickKit", package: "brick"), // 👈  Reference to a Local Package
+                .product(name: "BrickKit", package: "Brick_SwiftUI"), // 👈  Reference to a Local Package
              ]
         ),
     ]

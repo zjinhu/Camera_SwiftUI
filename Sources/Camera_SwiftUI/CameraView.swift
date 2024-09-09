@@ -163,9 +163,9 @@ public struct CameraView: View {
                 Image(symbol: .photoOnRectangleAngled)
                     .foregroundColor(Color.white)
                     .frame(width: 50, height: 50)
+                    .background(.white.opacity(0.2))
+                    .clipShape(Circle())
             }
-            .background(.black.opacity(0.4))
-            .clipShape(Circle())
             
             Button {
                 cameraModel.capturePhoto()
@@ -188,9 +188,9 @@ public struct CameraView: View {
                 Image(symbol: .arrowTriangle2CirclepathCamera)
                     .foregroundColor(Color.white)
                     .frame(width: 50, height: 50)
-            }
-            .background(.black.opacity(0.4))
-            .clipShape(Circle())
+                    .background(.white.opacity(0.2))
+                    .clipShape(Circle())
+            } 
             
             Spacer()
         }
