@@ -25,7 +25,9 @@ let package = Package(
         ),
     ]
 )
+
 package.platforms = [
     .iOS(.v14),
 ]
+
 package.swiftLanguageVersions = [.v5]
