@@ -12,7 +12,7 @@ let package = Package(
             targets: ["Camera_SwiftUI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/zjinhu/Brick_SwiftUI.git", .upToNextMajor(from: "0.3.0")),
+        .package(url: "https://github.com/zjinhu/Brick_SwiftUI.git", .upToNextMajor(from: "0.7.3")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
