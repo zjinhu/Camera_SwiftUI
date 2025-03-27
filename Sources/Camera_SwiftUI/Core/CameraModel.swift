@@ -397,4 +397,5 @@ public extension AVCaptureDevice.DeviceType {
         }
     }
 }
+
 #endif
